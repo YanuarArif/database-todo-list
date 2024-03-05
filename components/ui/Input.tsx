@@ -1,7 +1,7 @@
 interface inputProps {
   name: string;
   type: string;
-  placeholder: string;
+  placeholder?: string;
   value?: string;
 }
 
